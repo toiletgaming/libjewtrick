@@ -1,5 +1,5 @@
 {
-  "name": "libjewtrick",
+  "name": "@toiletgaming/libjewtrick",
   "version": "1.0.0",
   "description": "jewtrick.xyz API for NodeJS",
   "keywords": [
@@ -14,7 +14,7 @@
   "homepage": "https://github.com/toiletgaming/libjewtrick",
   "repository": {
     "type": "git",
-    "url": "https://github.com/toiletgaming/libjewtrick.git"
+    "url": "git+https://github.com/toiletgaming/libjewtrick.git"
   },
   "bugs": {
     "url": "https://github.com/toiletgaming/libjewtrick/issues"
@@ -23,5 +23,8 @@
   "license": "MIT",
   "dependencies": {
     "node-fetch": "^2.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
