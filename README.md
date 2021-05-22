@@ -2,7 +2,7 @@
 jewtrick.xyz API for NodeJS
 
 # Installation
-`npm install libjewtrick`
+`npm install @toiletgaming/libjewtrick`
 
 # States
 Status/StatusAsync function will return one of the following states:
@@ -15,7 +15,7 @@ Status/StatusAsync function will return one of the following states:
 # Examples
 Async:
 ```
-const JewTrickAPI = require( "libjewtrick" );
+const JewTrickAPI = require( "@toiletgaming/libjewtrick" );
 var jewtrick = new JewTrickAPI( );
 
 async function Test( )
@@ -32,7 +32,7 @@ Test( );
 
 Non-async:
 ```
-const JewTrickAPI = require( "libjewtrick" );
+const JewTrickAPI = require( "@toiletgaming/libjewtrick" );
 var jewtrick = new JewTrickAPI( );
 
 function Test( )
@@ -63,7 +63,7 @@ Test( );
 ```
 
 ```
-const JewTrickAPI = require( "libjewtrick" );
+const JewTrickAPI = require( "@toiletgaming/libjewtrick" );
 var jewtrick = new JewTrickAPI( );
 
 function Test( )
